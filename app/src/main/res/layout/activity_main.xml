@@ -37,7 +37,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
-                android:onClick="onPush"
+                android:onClick="onClean"
                 android:text="AC"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="24sp" />

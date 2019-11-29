@@ -85,9 +85,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onPercent(v: View){
-        var number = editText.text.toString()
+        var number = editText.text.toString().toDouble()/100
+        editText.setText(number.toString())
 
-        
+    }
+
+    fun onClean(v:View){
+        editText.setText("0")
+        operation = true
     }
 
 
